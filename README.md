@@ -1,6 +1,6 @@
 # Unit Calculator
 
-Unit Calculator is a simple Python program that allows users to convert between various units of measurement. The program supports a wide range of units, including length, area, volume, weight, speed, time, and temperature. T
+Unit Calculator is a simple Python program that allows users to convert between various units of measurement. The program supports a wide range of units, including length, area, volume, weight, speed, time, and temperature.
 
 ## Features :
 
