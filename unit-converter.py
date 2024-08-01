@@ -53,9 +53,9 @@ conversion_data = {
         "sec": 3600,
         "min": 60,
         "hr": 1,
-        "day": 0.041667,
-        "week": 0.005952,
-        "yr": 0.000114,
+        "day": 1/24,
+        "week": 1/168,
+        "yr": 1/8766,
     }
 }
 
@@ -179,7 +179,7 @@ def temp():
                 print("Cancelling the current command.")
                 return
 
-            unit1, val1 = input_data.split(" ")
+            val1, unit1 = input_data.split(" ")
 
             val1 = float(val1)
 
